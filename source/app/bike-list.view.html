@@ -1,0 +1,29 @@
+<div>
+  <h1>Stations List...</h1>
+
+  <div *ngFor="let station of stations">
+    <td>
+      <div>Id: {{station.id}}</div>
+      <div>Station Name: {{station.stationName}}</div>
+      <div>availableDocks: {{station.availableDocks}} </div>
+      <div>totalDocks: {{station.totalDocks}} </div>
+      <div>latitude: {{station.latitude}} </div>
+      <div>longitude: {{station.longitude}} </div>
+      <div>statusValue: {{station.statusValue}} </div>
+      <div>statusKey: {{station.statusKey}} </div>
+      <div>status: {{station.status}} </div>
+      <div>availableBikes: {{station.availableBikes}} </div>
+      <div>stAddress1: {{station.stAddress1}} </div>
+      <div>stAddress2: {{station.stAddress2}} </div>
+      <div>city: {{station.city}} </div>
+      <div>postalCode: {{station.postalCode}} </div>
+      <div>location: {{station.location}} </div>
+      <div>altitude: {{station.altitude}} </div>
+      <div>testStation: {{station.testStation}} </div>
+      <div>lastCommunicationTime: {{station.lastCommunicationTime}} </div>
+      <div>is_renting: {{station.is_renting}} </div>
+      <div>landMark: {{station.landMark}} </div>
+    </td>
+  </div>
+</div>
+
